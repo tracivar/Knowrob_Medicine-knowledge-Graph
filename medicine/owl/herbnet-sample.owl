@@ -1,0 +1,903 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#analyzes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#analyzes">
+        <rdfs:label>分析</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#consists_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#consists_of">
+        <rdfs:label>由...组成</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#constitutes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#constitutes">
+        <rdfs:label>组成</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#creator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#creator">
+        <rdfs:label>创建者</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#has_ingredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#has_ingredient">
+        <rdfs:label>有成分</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#ingredient_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#ingredient_of">
+        <rdfs:label>...成分</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#property_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#property_of">
+        <rdfs:label>...的特征</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#subject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#subject">
+        <rdfs:label>主题</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#treats -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#treats">
+        <rdfs:label>治疗</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#uses">
+        <rdfs:label>使用</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中医治疗 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中医治疗">
+        <rdfs:comment>以辨证论治的观点和方法治疗疾病。</rdfs:comment>
+        <rdfs:comment>Treatment based on syndrome differentiation of views and methods to treat disease.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#治疗"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中医病因 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中医病因">
+        <rdfs:comment>以中医基础理论研究疾病发生原因。</rdfs:comment>
+        <rdfs:comment>With the basic theory of TCM research  disease causes.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#病因病机"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中医病机 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中医病机">
+        <rdfs:comment>With the basic theory of traditional Chinese medicine to study the mechanism of disease occurrence, development and change.</rdfs:comment>
+        <rdfs:comment>以中医基础理论研究疾病发生、发展与变化的机理。</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#病因病机"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中医释名 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中医释名">
+        <rdfs:comment>西医疾病对应的中医病名。以中医基础理论阐述疾病。</rdfs:comment>
+        <rdfs:comment>Western medicine disease corresponding disease of traditional Chinese medicine. This disease with the basic theory of TCM.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#名称"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药性能 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药性能">
+        <rdfs:label>property  of traditional Chinese drugs</rdfs:label>
+        <rdfs:comment> In terms of basic properties and characteristics of traditional Chinese medicine (TCM) role.Also called medicinal properties, is the core of the important theory. Mainly includes four propreties of drugs and their five kinds of flavours, attributive channel, upbearing,downbearing,floating,and sinking and toxicity etc.</rdfs:comment>
+        <rdfs:comment>指中药作用的基本性质和特征的高度概括。又称药性，是重要理论的核心。主要包括四气、五味、归经、升降沉浮、毒性等。</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中西医结合治疗 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中西医结合治疗">
+        <rdfs:comment>Combination of two methods in Chinese and western medicine treatment of disease.</rdfs:comment>
+        <rdfs:comment>用中、西医药两种方法结合治疗疾病。</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#治疗"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#主治 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#主治">
+        <rdfs:comment>The primary efficacy of herbs and prescription.</rdfs:comment>
+        <rdfs:comment>指药物的主要疗效。</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#分子式 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#分子式">
+        <rdfs:comment>Chemical formula represented by element symbol pure (elemental and compound molecular) components and relative molecular mass.</rdfs:comment>
+        <rdfs:comment>是用元素符号表示纯净物（单质、化合物）分子的组成及相对分子质量的化学式。</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#分子量 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#分子量">
+        <rdfs:comment>The relative molecular mass, the sum of all the relative atomic mass of the atom in the chemical formula for relative molecular mass.</rdfs:comment>
+        <rdfs:comment>即相对分子质量，化学式中各个原子的相对原子质量的总和为相对分子质量。</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#别名 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#别名">
+        <rdfs:comment>正式的或规范的名称以外的名称，一种事物在通常的名称之外还有另外的一种名称，或同是用之于书面。</rdfs:comment>
+        <rdfs:comment>Formal or name other than the name of the specification, a kind of things outside is usually the name of the other a name, or the same is in writing.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#名称"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#剂型 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#剂型">
+        <rdfs:comment>指方剂组成以后，根据病情与药物的特点制成一定的形态。为适应治疗或预防的需要而制备的药物应用形式，简称剂型。</rdfs:comment>
+        <rdfs:comment>Refers to the composing, according to the characteristics of the disease and herbs made from a certain form iIn order to adapt to the need of treatment or prevention and preparation of drug application form, or dosage forms.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#功效 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#功效">
+        <rdfs:label>中药功能</rdfs:label>
+        <rdfs:comment>指中药对机体的所产生的作用。</rdfs:comment>
+        <rdfs:comment>The traditional Chinese medicine‘s effect on the body.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#化学名 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#化学名">
+        <rdfs:comment>指的是中药化学成分的化学名称。</rdfs:comment>
+        <rdfs:comment>Refers to the chemical name of the chemical constituents of traditional Chinese medicine.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#名称"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#名称 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#名称">
+        <rdfs:comment>For a given everything, in order to distinguish between different things, different individuals of the same things, divided into the person&#39;s name and name.</rdfs:comment>
+        <rdfs:comment>即对一切事物给定的标签，以便区分不同事物、同一事物的不同个体，分为人名和事物名称。</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#基原 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#基原">
+        <rdfs:label>药材基原</rdfs:label>
+        <rdfs:comment>指中药材的根源。</rdfs:comment>
+        <rdfs:comment>Sources of Chinese herbal medicines.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#归经 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#归经">
+        <rdfs:label>attributive channel</rdfs:label>
+        <rdfs:comment>It Is drug positioning concept, it indicates that the drug.</rdfs:comment>
+        <rdfs:comment>是药物作用的定位概念，即表示药物作用部位。</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药性能"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#成分分类 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#成分分类">
+        <rdfs:comment>指的是中药化学成分的成分归属于某一类。</rdfs:comment>
+        <rdfs:comment>Refers to the chemical composition of Chinese traditional medicine ingredients belonged to a category.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#推拿按摩 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#推拿按摩">
+        <rdfs:comment>Hands or other parts of the body according to the specific skills of movement function in patients with certain parts of the body surface or meridians operation method.</rdfs:comment>
+        <rdfs:comment>手或肢体其他部位按照各种特定技巧的动作作用于患者体表的特定部位或穴位操作的方法。</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#治疗"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#旋光度 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#旋光度">
+        <rdfs:comment>Also called specific rotation, rotation, when the plane polarized light through a liquid containing some optical active compounds or solution, can cause optical phenomenon, make polarization plane rotation to the left or right.</rdfs:comment>
+        <rdfs:comment>又称旋光率，比旋光度，即比旋光度【a】表示，当平面偏振光通过含有某些光学活性的化合物液体或溶液时，能引起旋光现象，使偏振光的平面向左或向右旋转。</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#毒性 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#毒性">
+        <rdfs:label>toxicity</rdfs:label>
+        <rdfs:comment>The damaging of drugs on the body.Chinese herbs toxicity often represented as small poison, big poison etc. Chemical composition of herbs toxicity are often described as the results of pharmacological experiment, such as median lethal dose in mice.</rdfs:comment>
+        <rdfs:comment>指药物对机体的损害性。中药单味药毒性常表示为大毒、小毒、微毒等；中药化学成分中常描述为药理实验中毒性实验结果，如小鼠半数致死量。</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药性能"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#汉语拼音 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#汉语拼音">
+        <rdfs:comment>中药名称的汉语拼音。</rdfs:comment>
+        <rdfs:comment>Chinese name in pinyin.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#名称"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#沸点 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#沸点">
+        <rdfs:comment>是指物质沸腾时的温度，更严格的定义是液体成为气体的温度。</rdfs:comment>
+        <rdfs:comment>Refers to the material when the boiling temperature, the more strict is defined as the temperature of the liquid into gas.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#治疗 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#治疗">
+        <rdfs:comment>通常是指干预或改变特定健康状态的过程。</rdfs:comment>
+        <rdfs:comment>Usually refers to the process of intervention or change specific health status.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#炮制方法 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#炮制方法">
+        <rdfs:comment>Refers to the medicinal material through the net system, cutting system, main processing, made a certain specification of yinpian, to meet the needs of the medical requirements and allocate, preparation, ensure safe and effective.Methods such as steamed, fried, fried including, calcined, cannon, mixing, boiling, boiling, fire boil, burning etc.</rdfs:comment>
+        <rdfs:comment>指将药材通过净制、切制、炮炙处理，制成一定规格的饮片，以适应医疗要求及调配、制剂的需要，保证用药安全和有效。方法包括如蒸、炒、炙、煅、炮、炼、煮、沸、火熬、烧等。</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#熔点 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#熔点">
+        <rdfs:comment>Crystal transform its physical state by solid state (melting) as the liquid in the process of solid-liquid coexistence state temperature.</rdfs:comment>
+        <rdfs:comment>是晶体将其物态由固态转变（熔化）为液态的过程中固液共存状态的温度。</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#用法用量 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#用法用量">
+        <rdfs:comment>The usage and dosage of  Chinese herbs to treat desease.</rdfs:comment>
+        <rdfs:comment>指治疗疾病的中药或方剂的使用方法和使用剂量。</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#用药禁忌 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#用药禁忌">
+        <rdfs:comment>由于某种情况，不适宜使用某些药物，如中药和方剂来进行治疗。</rdfs:comment>
+        <rdfs:comment>In certain circumstances, not suitable for the use of certain herbs.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#病因病机 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#病因病机">
+        <rdfs:comment>指的是疾病发生原因、发展与变化的机理。</rdfs:comment>
+        <rdfs:comment>Refers to the mechanism of disease occurrence, development and change.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#相关中药 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#相关中药">
+        <rdfs:comment>The Chinese herbs to treat certain disease.</rdfs:comment>
+        <rdfs:comment>指治疗某个疾病选用的中药。</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#治疗"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#相关针灸 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#相关针灸">
+        <rdfs:comment>According to the theory of traditional Chinese medicine and meridian theory, use the method of acupuncture and moxibustion to treat disease.</rdfs:comment>
+        <rdfs:comment>指按照中医理论及经络学说，用针刺、艾灸治疗疾病的方法。</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#治疗"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#科属 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#科属">
+        <rdfs:label>科属分类</rdfs:label>
+        <rdfs:comment>指植物分类中的科和属。</rdfs:comment>
+        <rdfs:comment>The classification of plant families and genera.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#英文名 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#英文名">
+        <rdfs:label>英文名称</rdfs:label>
+        <rdfs:comment>Refers to the English names of Chinese traditional medicine.</rdfs:comment>
+        <rdfs:comment>指的是中药的英文名称。</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#名称"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药性 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药性">
+        <rdfs:label>四气五味</rdfs:label>
+        <rdfs:label>four propreties of drugs and their five kinds of flavours</rdfs:label>
+        <rdfs:comment>为四气五味的总称；四气包括寒、热、温、凉；五味包括酸、苦、甘、辛、咸。</rdfs:comment>
+        <rdfs:comment>The generic term for four gas and five flavors. Four gas includes cold, heat, wen, liang; the five flavors of acid, sweet, bitter, spicy, salty.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药性能"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药材拉丁名 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药材拉丁名">
+        <rdfs:comment>指各国学者了解或是国际上通用的名称，用拉丁文来命名。药材拉丁名一般由药用部分名与药材名两部分组成</rdfs:comment>
+        <rdfs:comment>Refers to the international scholars understand or general international name, in Latin. Herbs Latin name generally consists of two parts, medicinal part name and medicine name</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#名称"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药物名称 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药物名称">
+        <rdfs:comment>Traditional Chinese medicine (TCM) chemical composition as the name of the drug.</rdfs:comment>
+        <rdfs:comment>中药化学成分作为药物的名称。</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#名称"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药理作用 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药理作用">
+        <rdfs:label>中药药理作用</rdfs:label>
+        <rdfs:comment>Based on the basic theory of Chinese medicine, used modern scientific methods to study the interaction between the body and the role of traditional Chinese medicine and the law.</rdfs:comment>
+        <rdfs:comment>是以中医药基本理论为指导，运用现代科学方法，研究中药和机体相互作用及作用规律。</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药用部位 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药用部位">
+        <rdfs:comment>指中草药用于治疗的部位，如根、茎、叶等。</rdfs:comment>
+        <rdfs:comment>The Chinese herbs parts for the treatment, such as roots, stems, leaves.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#西医治疗 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#西医治疗">
+        <rdfs:comment>指运用西医西药治疗疾病。</rdfs:comment>
+        <rdfs:comment>Use the western medicine western medicine to treat disease.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#治疗"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中医药文献 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中医药文献">
+        <rdfs:comment>The literature related to the content of traditional Chinese medicine.</rdfs:comment>
+        <rdfs:comment>与中医药内容相关的文献。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药">
+        <rdfs:label>herb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药用物质"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#用法用量"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#用药禁忌"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#归经"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药材拉丁名"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药理作用"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#英文名"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#功效"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#consists_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药化学成分"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#别名"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药性"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药用部位"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#ingredient_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#方剂"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#炮制方法"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#毒性"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#基原"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#主治"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>是我国传统药物的总称，包括动物药、植物药和矿物药等。</rdfs:comment>
+        <rdfs:comment>A general term for traditional Chinese medicines, including animal drugs, herbal and mineral drugs.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药化学成分 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药化学成分">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药用物质"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#成分分类"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#分子量"/>
+                <owl:someValuesFrom rdf:resource="&xsd;double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#沸点"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#constitutes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#用药禁忌"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药物名称"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#化学名"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#熔点"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#constitutes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#方剂"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#分子式"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#科属"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#旋光度"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>指从中药中提取、分离、鉴定、结构测定的分子成分。</rdfs:comment>
+        <rdfs:comment>The molecular components extracted from traditional Chinese medicine through  isolation, identification, structure determination.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药实验 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药实验">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#uses"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#化学实验方法"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>指的是中药化学实验。</rdfs:comment>
+        <rdfs:comment>Refers to the Chinese medicine chemistry experiment.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#化学实验方法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#化学实验方法">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#analyzes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药用物质"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The methods used in the determination of the chemical constituents of traditional Chinese medicine extraction, separation, purification, identification, and content determination.</rdfs:comment>
+        <rdfs:comment>在进行中药化学成分提取、分离、纯化、鉴定、合成及含量测定中使用的方法。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#医学专家 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#医学专家">
+        <rdfs:comment>医学领域中比较有影响力的人物，亦可指医学论文发表的作者。</rdfs:comment>
+        <rdfs:comment>More influential characters in the medical field, also refers to the medical papers published by the author.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#方剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#方剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药用物质"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#has_ingredient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药理作用"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#用法用量"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#功效"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#主治"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#用药禁忌"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#别名"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#剂型"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#consists_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中药化学成分"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Composed by herbs,after dialectical treatment, decided to trial, choose appropriate drugs, according to the principle of formula and the disretionary dosage, usage, proper compatibility. </rdfs:comment>
+        <rdfs:comment>是由药物组成的，是在辩证审因、决定治法之后，选择适宜的药物，按着组方的原则，酌定用量、用法，妥善配伍而成。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#疾病 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#疾病">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#别名"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#中医释名"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#治疗"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#病因病机"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#英文名"/>
+                <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>是生物在一定原因的损害性作用下，因自稳调节紊乱而发生的异常生命活动过程。</rdfs:comment>
+        <rdfs:comment>Abnormal biological processes in the biological role of certain causes of damage due to auto-regulation disorder.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药理作用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药理作用">
+        <rdfs:label>中药药理作用</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#property_of"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药用物质"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Based on the basic theory of Chinese medicine, used modern scientific methods to study the interaction between the body and the role of traditional Chinese medicine and the law.</rdfs:comment>
+        <rdfs:comment>是以中医药基本理论为指导，运用现代科学方法，研究中药和机体相互作用及作用规律。</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药用物质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#药用物质">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#treats"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2014/3/Ontology1397720026234.owl#疾病"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>All materials can be used to combat diseases and health effects.</rdfs:comment>
+        <rdfs:comment>可以用来防治疾病和保健作用的一切物质。</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
