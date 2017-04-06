@@ -35,7 +35,7 @@
 
 #include <boost/iterator/iterator_facade.hpp>
 
-#include <json_prolog/prolog_bindings.h>
+#include </home/raw/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog_bindings.h>
 
 namespace json_prolog
 {

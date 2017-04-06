@@ -35,7 +35,7 @@
 #include <vector>
 #include <stdexcept>
 
-#include <json_prolog/prolog_value.h>
+#include </home/raw/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog_value.h>
 
 namespace json_prolog
 {

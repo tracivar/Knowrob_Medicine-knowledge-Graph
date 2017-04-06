@@ -33,7 +33,7 @@
 #include <string>
 
 #include <ros/ros.h>
-#include <json_prolog/prolog_query_proxy.h>
+#include </home/raw/catkin_ws/src/knowrob/json_prolog/include/json_prolog/prolog_query_proxy.h>
 
 namespace json_prolog
 {
